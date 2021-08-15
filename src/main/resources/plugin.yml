@@ -1,0 +1,11 @@
+name: ProduceGrow
+version: '${project.version}'
+main: riyaya1528.paper.producegrow.ProduceGrow
+api-version: 1.17
+permissions:
+  sneakgrow.block:
+    description: You can accelerate growing for saplings and crops by sneaking
+    default: true
+  sneakgrow.entity:
+    description: You can accelerate growing for mobs and reduce breeding cooldown by sneaking
+    default: true
